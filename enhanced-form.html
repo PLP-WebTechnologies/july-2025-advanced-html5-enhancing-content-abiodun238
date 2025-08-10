@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing HTML5 Content & Mastering Forms</title>
+</head>
+<body>
+    
+     <header>
+        <h1>Sign Up Form</h1>
+        <p>Fill the form below to register for training</p>
+     </header>
+     <section>
+        
+        <h2>Personal information</h2>
+        <label for="fullname">Full name</label><br>
+        <input type="text" name="fullname" id="fname" placeholder="Enter your full name">
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <br><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" name="phone" id="phoneNumber" placeholder="Enter your phoneNumber">
+        <br><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <select name="gender" id="gender" required>
+             <option value="disabled selected" >Select your gender</option>
+             <option value="male">Male</option>
+             <option value="female">Female</option>
+             <option value="other">other</option>
+        </select>
+        <br><br>
+          
+     </section>
+     <label >
+        <input type="checkbox" name="terms" required>
+        I agree to the terms and condition
+     </label>
+     <label >
+        <input type="checkbox" name="Subscribe" value="yes" readonly checked>Subscribe to our news letter
+     </label>
+
+     <section>
+        <h2>Our Core Values</h2>
+        <li>Integrity</li>
+        <li>Innovation</li>
+        <li>Friendliness</li>
+     </section> 
+
+     <section>
+        <table border = "12" cellpadding = "10" cellspacing = "0">
+            <caption><h2>Pricing Table</h2></caption>
+       <thead>
+         <tr>
+           <th>Plan</th>
+           <th>Pricing</th>
+         <th>Features</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Basic</td>
+            <td>$20/month</td>
+            <td>Access to basic Features</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>$50/month</td>
+            <td>Access to all features</td>
+        </tr>
+        <tr>
+            <td>Enterprise</td>
+            <td>$100/month</td>
+            <td>Custom solution and support</td>
+        </tr>
+       </tbody> 
+        </table>
+     </section>
+    <section>
+        <h1>
+            Welcome to media Section
+        </h1>
+        <h2>
+            listen to this audio
+        </h2>
+        <audio controls>
+            <source src="audio/sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the Audio Element.Try use another browser!
+        </audio>
+
+        <h2>Watch this video</h2>
+        <video controls width="200" height="200">
+           <source src="audio/sample-video.mp4" type="video/mp4">
+        </video>
+    </section>
+</body>
+</html>
